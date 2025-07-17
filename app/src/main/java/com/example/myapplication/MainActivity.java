@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.sdfgh;
 
 import android.os.Bundle;
 
@@ -20,5 +20,26 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public static void main(String[] args) {
+        Note Note1 = new Note();
+        Note Note2 = new Note();
+        User User1 = new User();
+        User User2 = new User();
+
+        Note1.title = "wonderrideBook";
+        Note1.content = "Primitive";
+        Note1.Date = "15/4/2565";
+
+        Note2.title = "wonder";
+        Note2.content = "Phease2";
+        Note2.Date = "4/4/2566";
+
+        User1.UserName = "Mordredkaiser";
+        User1.password = "Mordred";
+
+        User2.UserName = "SHio";
+        User2.password = "Hiseki";
     }
 }
