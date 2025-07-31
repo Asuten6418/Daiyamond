@@ -1,16 +1,18 @@
-package com.example.sdfgh;
+package com.example.myapplication;
 
-public class Note {
+public abstract class Note {
     //Attribute
-    String title;
-    String content;
-    String Date;
-
+    public String title;
+    public String createdDate;
+    //getter
+/* public String getTitle(){
+    return title;
+}
+    public String getCreatedDate(){
+    return createdDate;
+ */
     //Method
-    Void getSummary(){
-        System.out.println(title);
-        System.out.println(content);
-        System.out.println(Date);
-        return null;
-    }
+    abstract public String getSummary();
+       //title:context(CreateDate)
+    //system.out.println(title+":"+content+"("createdDate+")");
 }

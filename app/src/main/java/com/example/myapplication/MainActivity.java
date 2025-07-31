@@ -1,4 +1,4 @@
-package com.example.sdfgh;
+package com.example.myapplication;
 
 import android.os.Bundle;
 
@@ -23,18 +23,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static void main(String[] args) {
-        Note Note1 = new Note();
-        Note Note2 = new Note();
+        //Note Note1 = new Note();
+        //Note Note2 = new Note();
         User User1 = new User();
         User User2 = new User();
 
-        Note1.title = "wonderrideBook";
-        Note1.content = "Primitive";
-        Note1.Date = "15/4/2565";
+       // Note1.title = "wonderrideBook";
+        //Note1.createdDate = "15/4/2565";
 
-        Note2.title = "wonder";
-        Note2.content = "Phease2";
-        Note2.Date = "4/4/2566";
+       // Note2.title = "wonder";
+       // Note2.createdDate = "4/4/2566";
 
         User1.UserName = "Mordredkaiser";
         User1.password = "Mordred";

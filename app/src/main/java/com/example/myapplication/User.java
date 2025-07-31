@@ -1,6 +1,6 @@
-package com.example.sdfgh;
+package com.example.myapplication;
 
-public class User {
+public class User{
     //Attribute
     String UserName;
     String password;
